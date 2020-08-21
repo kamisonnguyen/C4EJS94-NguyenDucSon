@@ -7,7 +7,7 @@ for (let index = 0; index < z.length; index++) {
         str += z[index];
     } else {
         str += z[index] + ", ";
-    }
+}
 }
 str += " => ";
 for (let index = 0; index < c.length; index++) {
