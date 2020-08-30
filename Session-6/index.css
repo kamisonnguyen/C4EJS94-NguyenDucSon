@@ -1,0 +1,124 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    display: inline;
+    color: #ff5100;
+    text-align: center;
+    /** chọn tất cả các thẻ h1 || TAG select*/
+}
+/* body {
+    padding: 0px;
+    margin: 0px;
+} */
+
+body > p {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    background-color: #ff0080;
+}
+
+#First_h1 {
+    text-decoration: underline;
+    /* id là duy nhất, ko được cái thẻ khác thừa kế. " # "*/
+}
+
+.classh1 {
+    font-style: italic;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+    /* 2 loại có thể chạy chung trên 1 thẻ*/
+}
+
+[href] {        
+    display: inline;
+    font-size: 1rem;
+}
+
+[type="password"] {
+    /* border-style: inset; */
+    border: solid rgb(255, 76, 180) 2px;
+    border-radius: 5px;
+}
+[type="text"]{
+    border: solid gold 2px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: line-through;
+}
+
+nav > a {
+    font-weight: bold;
+    text-decoration-line: unset;
+}
+
+button:active {
+    background-color: rgb(255, 9, 194);
+}
+
+/* input:focus {
+    border: rgb(255, 0, 0) solid 4px;
+} */
+
+img {
+    width: 100%;
+    background-attachment: fixed; 
+    /* object-fit: contain;
+    vertical-align: middle;
+    margin: auto;
+    border: 3px solid rgb(113, 255, 201);
+    padding: 5px; */
+}
+
+img:hover {
+    border: gold 2px solid;
+}
+
+.git {
+    display: inline;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.classh1_2 {
+    text-align-last: center;
+}
+
+.Banner {
+    /* height: 20rem;
+    width: 47rem; */
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    /* background-image: url(https://p4.wallpaperbetter.com/wallpaper/695/331/660/digital-art-artwork-women-cityscape-wallpaper-preview.jpg);     */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /** ko de truot theo con lan */
+}
+.border{
+    width: 10%;
+    border-radius: 1rem;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: auto;
+    border: 3px solid rgb(113, 255, 201);
+    padding: 5px;
+    background-attachment: fixed; 
+}
+.Boxmodel1{
+    border: 3px tomato solid ;
+    padding: 0,5rem;
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(255, 166, 0);
+    margin: 3rem;
+}
