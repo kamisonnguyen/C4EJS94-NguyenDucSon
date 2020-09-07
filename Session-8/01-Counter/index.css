@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#number {
+    padding: 0px 10px ;
+}

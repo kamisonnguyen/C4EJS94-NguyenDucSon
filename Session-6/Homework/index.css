@@ -6,7 +6,16 @@ html {
 
 .bold {
     font-weight: bold;
+    font-size: large;
+    display: inline;
     text-transform: uppercase;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px
+}
+.post{
+    display: flex   ;
 }
 
 body div img {
@@ -16,11 +25,8 @@ body div img {
 }
 
 .post_right {
-    width: 520px;
     background: #fff;
     padding: 25px;
-    margin-right: 104.6px;
-    float: right;
 }
 
 body {
@@ -31,14 +37,9 @@ body {
 }
 
 .post_left {
-    margin-left: 120px;
     background: #FEC056;
-    width: 200px;
-    height: 1017.6px;
-    float: left;
 }
 .post .post_left ul li {
-    display: flex;
     margin-bottom: 20px;
     margin-left: -30px;
     align-items: center;
@@ -112,7 +113,7 @@ div {
 }
 .bold2 {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 25px;
 }
 .item_and_social{
     margin-top: -30px;
@@ -125,27 +126,19 @@ div {
     margin-bottom: 15px;
 }
 .post_item_post_hobby ul li{
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    display: inline;
     border: 2px solid #FEC056;
     border-radius: 50%;
-    top: 0px;
-    position: relative;
     color:  #FEC056;
-    padding: 0;
-    margin: 10px;
-    box-sizing: border-box;
-    list-style: none;
+    font-size: 20px;
+    padding: 1%;
+    margin: 20px;
 }
 .post_work .infor{
-    font-size: 10px;
+    font-size: 20px;
     box-sizing: border-box;
 }
 .item_and_social{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     list-style: none;
     border-bottom: 0px;
     font-family: 'Roboto', sans-serif;
@@ -157,3 +150,9 @@ div {
     margin-bottom: 10px;
     align-items: center;
 }
+
+.post_item_post_hobby ul{
+    margin-left: 20px;
+    margin-top: 70px;
+}
+

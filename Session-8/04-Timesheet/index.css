@@ -1,0 +1,16 @@
+.inline { 
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid cyan;
+}
+
+button {
+    border-radius: 10%;
+}
+
+button:active {
+    background-color: deepskyblue;
+}

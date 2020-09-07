@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script src="data.js"></script>
+    <table style="column-width: 5px;">
+        <tr>
+            <input type="text" id="project"placeholder="Enter project">
+            <input type="text" id="task" class="inline"  placeholder="Enter task">
+            <input type="number" id="time" class="inline"  placeholder="Time spent">
+            <button id="add" class="inline" >Add</button>
+            <button id="clear" class="inline" >Clear</button>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <thead>
+            <th>Project</th>
+            <th>Task</th>
+            <th>Time Spent</th>
+            <th colspan="2">Actions</th>
+        </thead>
+        <tbody id="ts_tbody"></tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
